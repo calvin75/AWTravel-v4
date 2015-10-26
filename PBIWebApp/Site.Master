@@ -5,16 +5,29 @@
 <html lang="en">
 <head runat="server">
     <title>Power BI - Web application</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <%--<link href="css/bootstrap-theme.min.css" rel="stylesheet" />--%>
+    <link href="css/material-fullpalette.min.css" rel="stylesheet" />
+    <link href="css/ripples.min.css" rel="stylesheet" />
+    <link href="css/roboto.min.css" rel="stylesheet" />
+    <link href="css/master.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="css/modernizr-2.8.3.js"></script>
+    <![endif]-->
+
     <script type="text/javascript">
 
         window.onload = function () {
             // client side click to embed a selected tile.
             var el = document.getElementById("bEmbedTileAction");
-                if (el.addEventListener) {
-                    el.addEventListener("click", updateEmbedTile, false);
-                } else {
-                    el.attachEvent('onclick', updateEmbedTile);
-                }
+            if (el.addEventListener) {
+                el.addEventListener("click", updateEmbedTile, false);
+            } else {
+                el.attachEvent('onclick', updateEmbedTile);
+            }
 
             //How to navigate from a Power BI Tile to the dashboard
             // listen for message to receive tile click messages.
@@ -28,7 +41,7 @@
             // handle server side post backs, optimize for reload scenarios
             // show embedded tile if all fields were filled in.
             var accessTokenElement = document.getElementById('MainContent_accessTokenTextbox');
-            if(null !== accessTokenElement){
+            if (null !== accessTokenElement) {
                 var accessToken = accessTokenElement.value;
                 if ("" !== accessToken)
                     updateEmbedTile();
@@ -42,13 +55,11 @@
         // The embedded tile posts message for click to parent window.  
         // Listen and handle as appropriate
         // The sample shows how to open the tile source.
-        function receiveMessage(event)
-        {
+        function receiveMessage(event) {
             if (event.data) {
                 try {
                     messageData = JSON.parse(event.data);
-                    if (messageData.event === "tileClicked")
-                    {
+                    if (messageData.event === "tileClicked") {
                         //Get IFrame source and construct dashboard url
                         iFrameSrc = document.getElementById(event.srcElement.iframe.id).src;
 
@@ -79,11 +90,11 @@
             // 1: set the url, include size.
             // 2: add a onload handler to submit the auth token
             iframe = document.getElementById('iFrameEmbedTile');
-            iframe.src =  embedTileUrl + "&width=" + width + "&height=" + height;
+            iframe.src = embedTileUrl + "&width=" + width + "&height=" + height;
             iframe.onload = postActionLoadTile;
         }
 
-        
+
         // post the auth token to the iFrame. 
         function postActionLoadTile() {
             // get the access token.
@@ -94,10 +105,10 @@
                 return;
 
             var h = height;
-            var w = width; 
+            var w = width;
 
             // construct the push message structure
-            var m = { action: "loadTile", accessToken: accessToken, height: h, width: w};
+            var m = { action: "loadTile", accessToken: accessToken, height: h, width: w };
             message = JSON.stringify(m);
 
             // push the message.
@@ -108,14 +119,66 @@
     </script>
 </head>
 <body>
-    <form runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="Stylesheets" runat="server">
-                <link rel="stylesheet" href="/css/master.css" type="text/css" />
-            </asp:ContentPlaceHolder>
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
+    <div class="container body-content">
+        <div class="main-content">
+            <div class="page-content">
+                <form runat="server">
+                    <div class="jumbotron">
+                        <h1>Science of Great Design</h1>
+                        <div class="flowplayer" data-swf="~/Player/flowplayer.swf" data-ratio="0.4167">
+                            <video>
+                                <source type="video/webm" src="https://stream.flowplayer.org/bauhaus.webm">
+                                <source type="video/mp4" src="https://stream.flowplayer.org/bauhaus.mp4">
+                            </video>
+                        </div>
+                        <p class="lead">Blah blah blah blah. Course teaser here. Give us all of your money!</p>
+                        <p><a href="#" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h2>More information</h2>
+                            <p>Lorem ipsum and other mumbo jumbo no one understands.</p>
+                            <p data-bind="text: myHometown"></p>
+
+                            <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h2>Synaptic Trail courses</h2>
+                            <p>
+                                You want courses? We've got courses. Courses of all shapes and sizes. Courses sure to please even the most discerning afficionato.
+                            </p>
+                            <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h2>Who are you guys?</h2>
+                            <p>In a word: experts. Damn humble ones at that.</p>
+                            <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <asp:ContentPlaceHolder ID="Stylesheets" runat="server">
+                            <%--<link rel="stylesheet" href="/css/master.css" type="text/css" />--%>
+                        </asp:ContentPlaceHolder>
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </form>
+            </div>
         </div>
-    </form>
+    </div>
+    <script src="scripts/jquery-1.10.2.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/respond.min.js"></script>
+    <script src="scripts/ripples.min.js"></script>
+    <script src="scripts/material.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $.material.init();
+        });
+    </script>
 </body>
 </html>

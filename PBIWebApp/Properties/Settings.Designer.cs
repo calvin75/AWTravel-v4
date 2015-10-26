@@ -25,7 +25,16 @@ namespace PBIWebApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://awtdelays.azurewebsites.net/Redirect")]
+        public string RedirectUrl {
+            get {
+                return ((string)(this["RedirectUrl"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("6f16e667-480b-46d2-8ab2-0ef2fb1156e3")]
         public string ClientID {
             get {
                 return ((string)(this["ClientID"]));
@@ -34,7 +43,7 @@ namespace PBIWebApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("6cX6qKRvs/+4ILgusFKkQaBQu2eNw0FSDHbgS9iZXFU=")]
         public string ClientSecret {
             get {
                 return ((string)(this["ClientSecret"]));

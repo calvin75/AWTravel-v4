@@ -18,7 +18,8 @@ namespace PBIWebApp
         protected void Page_Load(object sender, EventArgs e)
         {
             //Redirect uri must match the redirect_uri used when requesting Authorization code.
-            string redirectUri = "http://localhost:13526/Redirect";
+            //string redirectUri = "http://localhost:13526/Redirect";
+            string redirectUri = PBIWebApp.Properties.Settings.Default.RedirectUrl;
             string authorityUri = "https://login.windows.net/common/oauth2/authorize/";
            
             // Get the auth code
