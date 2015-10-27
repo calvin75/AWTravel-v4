@@ -123,12 +123,8 @@
 
     <div class="navbar navbar-default shadow-z-2">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="javascript:void(0)">AdventureWorks Travel</a>
+            <a class="navbar-brand" href="javascript:void(0)" title="AdventureWorks Travel">
+                <img src="images/AdventureWorksTravel.png" style="max-width:376px; margin-top: -14px;" /></a>
         </div>
         <%--<div class="navbar-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -141,10 +137,6 @@
         <div class="main-content">
             <div class="page-content">
                 <form runat="server">
-                    <div class="jumbotron">
-                        <h1><i class="fa fa-send-o text-primary"></i>&nbsp;Smart Travel Booking</h1>
-                        <p>Predict travel delays based upon our SmartBooking&copy; system</p>
-                    </div>
                     <div>
                         <asp:ContentPlaceHolder ID="Stylesheets" runat="server">
                             <%--<link rel="stylesheet" href="/css/master.css" type="text/css" />--%>
@@ -159,7 +151,14 @@
 
     <footer role="contentinfo">
         <div class="container">
-            <p>Copyright &copy; 2015  |  <a href="#">AdventureWorks Travel, inc.</a>, all rights reserved</p>
+            <div class="row">
+                <div class="col-md-8">
+                    Copyright &copy; 2015  |  <a href="#">AdventureWorks Travel, inc.</a>, all rights reserved
+                </div>
+                <div class="col-md-4">
+                    <a href="http://www.wunderground.com/" target="_blank"><img src="images/wundergroundLogo_4c_rev_horz_small.png" alt="Weather Underground" /></a>
+                </div>
+            </div>
         </div>
     </footer>
 

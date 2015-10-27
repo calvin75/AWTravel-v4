@@ -2,6 +2,11 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
+    <div class="jumbotron">
+        <h1><i class="fa fa-send-o text-primary"></i>&nbsp;Smart Travel Booking</h1>
+        <p>Predict travel delays based upon our SmartBooking&reg; system</p>
+    </div>
+
     <div class="row">
 
         <div class="col-md-3">
@@ -76,47 +81,51 @@
         <div class="col-md-3">
 
             <div class="row">
-                <div class="panel panel-transparent no-bd">
+                <div class="col-md-12">
+                    <div class="panel panel-transparent no-bd">
 
-                    <div class="panel-header bg-dark">
-                        <h3 class="panel-title"><strong>Exercise 4:</strong> Batch Scoring</h3>
-                    </div>
+                        <div class="panel-header bg-dark">
+                            <h3 class="panel-title"><strong>Exercise 4:</strong> Batch Scoring</h3>
+                        </div>
 
-                    <div class="panel-body bg-white">
-                        <asp:Panel ID="Panel1" runat="server" Visible="true">
-                            <div class="form-group m-b-30">
-                                <p>URI to blob for scoring</p>
-                                <input class="form-control" type="text" id="tb_blobToScore" value="" />
-                            </div>
-                            <input type="button" class="btn btn-primary" id="bBatchScore" value="Batch Score File" />
-                        </asp:Panel>
+                        <div class="panel-body bg-white">
+                            <asp:Panel ID="Panel1" runat="server" Visible="true">
+                                <div class="form-group m-b-30">
+                                    <p>URI to blob for scoring</p>
+                                    <input class="form-control" type="text" id="tb_blobToScore" value="" />
+                                </div>
+                                <input type="button" class="btn btn-primary" id="bBatchScore" value="Batch Score File" />
+                            </asp:Panel>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Sign in -->
             <div class="row">
-                <div class="panel panel-transparent no-bd">
+                <div class="col-md-12">
+                    <div class="panel panel-transparent no-bd">
 
-                    <div class="panel-header bg-dark">
-                        <h3 class="panel-title"><strong>Exercise 5:</strong> Sign in</h3>
-                    </div>
+                        <div class="panel-header bg-dark">
+                            <h3 class="panel-title"><strong>Exercise 5:</strong> Sign in</h3>
+                        </div>
 
-                    <div class="panel-body bg-white">
-                        Sign in to your Power BI account to link your account to this web application
+                        <div class="panel-body bg-white">
+                            Sign in to your Power BI account to link your account to this web application
                         <p>
                             <asp:Button ID="signInButton" class="btn btn-primary" runat="server" OnClick="signInButton_Click" Text="Sign in to Power BI" />
                         </p>
-                        <asp:Panel ID="signInStatus" runat="server" Visible="false">
-                            <div class="form-group m-b-30">
-                                <p>Signed in as</p>
-                                <asp:Label ID="userLabel" runat="server"></asp:Label>
-                            </div>
-                            <div class="form-group m-b-30">
-                                <p>Access Token</p>
-                                <asp:TextBox ID="accessTokenTextbox" class="form-control" runat="server" Width="586px"></asp:TextBox>
-                            </div>
-                        </asp:Panel>
+                            <asp:Panel ID="signInStatus" runat="server" Visible="false">
+                                <div class="form-group m-b-30">
+                                    <p>Signed in as</p>
+                                    <asp:Label ID="userLabel" runat="server"></asp:Label>
+                                </div>
+                                <div class="form-group m-b-30">
+                                    <p>Access Token</p>
+                                    <asp:TextBox ID="accessTokenTextbox" class="form-control" runat="server" Width="586px"></asp:TextBox>
+                                </div>
+                            </asp:Panel>
+                        </div>
                     </div>
                 </div>
             </div>

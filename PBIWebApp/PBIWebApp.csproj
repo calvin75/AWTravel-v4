@@ -105,9 +105,13 @@
     <Content Include="css\material.min.css" />
     <Content Include="css\ripples.min.css" />
     <Content Include="css\roboto.min.css" />
+    <Content Include="images\wundergroundLogo_4c_rev_horz.png" />
+    <Content Include="images\wundergroundLogo_4c_rev_horz_small.png" />
+    <Content Include="Main.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\Material-Design-Icons.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\AdventureWorksTravel.png" />
     <Content Include="images\tropical-island-o.jpg" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
@@ -156,6 +160,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

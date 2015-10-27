@@ -9,6 +9,14 @@ body {
     background-color:transparent;
 }
 
+/* iFrame sizing to fill all possible space */
+#iFrameEmbedTile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 img.bg {
     /* Set rules to fill background */
@@ -29,6 +37,8 @@ img.bg {
         margin-left: -512px;
     }
 }
+
+.navbar { min-height: 85px; }
 
 .prediction {
     padding: 12px;
