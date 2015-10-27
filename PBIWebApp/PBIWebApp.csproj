@@ -99,15 +99,35 @@
   <ItemGroup>
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\font-awesome.min.css" />
     <Content Include="css\master.css" />
     <Content Include="css\material-fullpalette.min.css" />
     <Content Include="css\material.min.css" />
     <Content Include="css\ripples.min.css" />
     <Content Include="css\roboto.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\Material-Design-Icons.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\tropical-island-o.jpg" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="fonts\Material-Design-Icons.eot" />
+    <Content Include="fonts\Material-Design-Icons.ttf" />
+    <Content Include="fonts\Material-Design-Icons.woff" />
+    <Content Include="fonts\RobotoDraftBold.woff" />
+    <Content Include="fonts\RobotoDraftBold.woff2" />
+    <Content Include="fonts\RobotoDraftItalic.woff" />
+    <Content Include="fonts\RobotoDraftItalic.woff2" />
+    <Content Include="fonts\RobotoDraftMedium.woff" />
+    <Content Include="fonts\RobotoDraftMedium.woff2" />
+    <Content Include="fonts\RobotoDraftRegular.woff" />
+    <Content Include="fonts\RobotoDraftRegular.woff2" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\awtdelays.pubxml" />
     <None Include="Properties\PublishProfiles\PBICodeSample.pubxml" />
     <None Include="Properties\Settings.settings">

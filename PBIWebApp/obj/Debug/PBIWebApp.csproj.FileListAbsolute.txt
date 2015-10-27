@@ -38,3 +38,23 @@ C:\Dropbox\Projects\AppvNext\Solliance\Power BI\TileIntegration\PBIWebApp\bin\Mi
 C:\Dropbox\Projects\AppvNext\Solliance\Power BI\TileIntegration\PBIWebApp\obj\Debug\PBIWebApp.csprojResolveAssemblyReference.cache
 C:\Dropbox\Projects\AppvNext\Solliance\Power BI\TileIntegration\PBIWebApp\obj\Debug\PBIWebApp.dll
 C:\Dropbox\Projects\AppvNext\Solliance\Power BI\TileIntegration\PBIWebApp\obj\Debug\PBIWebApp.pdb
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\PBIWebApp.dll.config
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\PBIWebApp.dll
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\PBIWebApp.pdb
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\Newtonsoft.Json.dll
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\System.Web.Optimization.dll
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\WebGrease.dll
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\System.Web.Optimization.xml
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\Newtonsoft.Json.xml
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\obj\Debug\PBIWebApp.csprojResolveAssemblyReference.cache
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\obj\Debug\PBIWebApp.dll
+C:\Users\jhulen\Documents\GitHub\PowerBI\PBIWebApp\obj\Debug\PBIWebApp.pdb

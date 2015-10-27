@@ -13,6 +13,7 @@
     <link href="css/ripples.min.css" rel="stylesheet" />
     <link href="css/roboto.min.css" rel="stylesheet" />
     <link href="css/master.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="css/modernizr-2.8.3.js"></script>
@@ -119,45 +120,31 @@
     </script>
 </head>
 <body>
+
+    <div class="navbar navbar-default shadow-z-2">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="javascript:void(0)">AdventureWorks Travel</a>
+        </div>
+        <%--<div class="navbar-collapse collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="request-fullscreen toggle-active">Fullscreen</a></li>
+            </ul>
+        </div>--%>
+    </div>
+
     <div class="container body-content">
         <div class="main-content">
             <div class="page-content">
                 <form runat="server">
                     <div class="jumbotron">
-                        <h1>Science of Great Design</h1>
-                        <div class="flowplayer" data-swf="~/Player/flowplayer.swf" data-ratio="0.4167">
-                            <video>
-                                <source type="video/webm" src="https://stream.flowplayer.org/bauhaus.webm">
-                                <source type="video/mp4" src="https://stream.flowplayer.org/bauhaus.mp4">
-                            </video>
-                        </div>
-                        <p class="lead">Blah blah blah blah. Course teaser here. Give us all of your money!</p>
-                        <p><a href="#" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+                        <h1><i class="fa fa-send-o text-primary"></i>&nbsp;Smart Travel Booking</h1>
+                        <p>Predict travel delays based upon our SmartBooking&copy; system</p>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h2>More information</h2>
-                            <p>Lorem ipsum and other mumbo jumbo no one understands.</p>
-                            <p data-bind="text: myHometown"></p>
-
-                            <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
-                        </div>
-
-                        <div class="col-md-4">
-                            <h2>Synaptic Trail courses</h2>
-                            <p>
-                                You want courses? We've got courses. Courses of all shapes and sizes. Courses sure to please even the most discerning afficionato.
-                            </p>
-                            <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
-                        </div>
-
-                        <div class="col-md-4">
-                            <h2>Who are you guys?</h2>
-                            <p>In a word: experts. Damn humble ones at that.</p>
-                            <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>
-                        </div>
-                    </div>
-
                     <div>
                         <asp:ContentPlaceHolder ID="Stylesheets" runat="server">
                             <%--<link rel="stylesheet" href="/css/master.css" type="text/css" />--%>
@@ -169,6 +156,13 @@
             </div>
         </div>
     </div>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <p>Copyright &copy; 2015  |  <a href="#">AdventureWorks Travel, inc.</a>, all rights reserved</p>
+        </div>
+    </footer>
+
     <script src="scripts/jquery-1.10.2.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/respond.min.js"></script>
