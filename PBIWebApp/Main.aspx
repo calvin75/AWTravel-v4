@@ -64,7 +64,7 @@
                             <div class="col-md-12">
                                 <h3>Delay Prediction</h3>
                                 <div class="prediction prediction-mid shadow-z-1">
-                                    <span id="predictionDelay">expect delays (73% confidence)</span>
+                                    <div id="predictionDelay"><p>expect delays</p>(73% confidence)</div>
                                 </div>
                             </div>
                         </div>

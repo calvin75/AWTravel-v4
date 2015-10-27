@@ -42,6 +42,7 @@ img.bg {
 
 .prediction {
     padding: 12px;
+    text-align: center;
     /*font-weight: bold;*/
 }
 
@@ -63,6 +64,10 @@ img.bg {
 .prediction-mid {
     background: #ffcc00;
     color: #000;
+}
+
+.prediction div p {
+    font-size: 1.3em;
 }
 
 footer {
