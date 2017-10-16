@@ -52,7 +52,8 @@ namespace PBIWebApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("iJoOaisQFUA/pI7CSGQZk1GhHBlSRQs0PQWhY7y3GpzH+SQ6FGA+YU/xG7eZQNT2D9l4XzFW9tODqOHMR" +
+            "QE2iw==")]
         public string ML_APIKey {
             get {
                 return ((string)(this["ML_APIKey"]));
@@ -72,7 +73,7 @@ namespace PBIWebApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("154f8fe6ae934e43a3f0de54d735024c")]
         public string ML_WorkspaceID {
             get {
                 return ((string)(this["ML_WorkspaceID"]));
@@ -81,7 +82,7 @@ namespace PBIWebApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("169fce2d343e42978f6e93a0b65471c7")]
         public string ML_ServiceID {
             get {
                 return ((string)(this["ML_ServiceID"]));
@@ -99,7 +100,7 @@ namespace PBIWebApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("japaneast")]
         public string ML_RegionPrefix {
             get {
                 return ((string)(this["ML_RegionPrefix"]));
