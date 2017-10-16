@@ -110,7 +110,7 @@ namespace PBIWebApp
         {
             _aiports = new List<Airport>()
             {
-                new Airport() {AirportCode ="SEA", AirportWundergroundID="SEA"},
+                new Airport() {AirportCode ="SEA", AirportWundergroundID="zmw:98158.5.99999"},
                 new Airport() { AirportCode ="ABQ", AirportWundergroundID="ABQ" },
                 new Airport() { AirportCode ="ANC", AirportWundergroundID="ANC" },
                 new Airport() { AirportCode ="ATL", AirportWundergroundID="ATL" },

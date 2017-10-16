@@ -12,7 +12,7 @@ namespace PBIWebApp.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.3.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -25,7 +25,7 @@ namespace PBIWebApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://awtravelwebapp-cw1sehan.azurewebsites.net/Redirect")]
         public string RedirectUrl {
             get {
                 return ((string)(this["RedirectUrl"]));
@@ -34,7 +34,7 @@ namespace PBIWebApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("014cf4c0-bed7-40b3-92ef-8e9b2bf67404")]
         public string ClientID {
             get {
                 return ((string)(this["ClientID"]));
@@ -43,7 +43,7 @@ namespace PBIWebApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("BMRgz7bQFMCdOnj7XuRhWKBcRvdPEv1phuFGb5Yqags=")]
         public string ClientSecret {
             get {
                 return ((string)(this["ClientSecret"]));
@@ -61,7 +61,9 @@ namespace PBIWebApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("DefaultEndpointsProtocol=https;AccountName=cw1sehanstorage;AccountKey=eXrVURGaMn6" +
+            "SnxV33jPEBdJq3WmGHht57qhoUeSpbl0O4fDy0tbkpnciDgv19FwQUIJRvRrX1nhJ6py43WTJgQ==;En" +
+            "dpointSuffix=core.windows.net")]
         public string ML_StorageAccount {
             get {
                 return ((string)(this["ML_StorageAccount"]));
@@ -88,7 +90,7 @@ namespace PBIWebApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("dbe7a05b8c7218bb")]
         public string Weather_APIKey {
             get {
                 return ((string)(this["Weather_APIKey"]));
