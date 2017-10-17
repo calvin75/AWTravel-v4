@@ -13,12 +13,12 @@
         <div>
             <h2>Submit Job</h2>
             <asp:Label ID="Label1" runat="server" Text="Relative Location of File to Score"></asp:Label>
-            <asp:TextBox ID="txtSourceRelativeLocation" runat="server" Text="sol-exp-spark/flights/FlightsAndWeather.csv" Width="600"></asp:TextBox>
+            <asp:TextBox ID="txtSourceRelativeLocation" runat="server" Text="scoring/flights/FlightsAndWeather.csv" Width="600"></asp:TextBox>
         </div>
 
         <div>
             <asp:Label ID="Label2" runat="server" Text="Relative Location of Scored Output File"></asp:Label>
-            <asp:TextBox ID="txtDestRelativeLocation" runat="server" Text="sol-exp-spark/flights/Scored_FlightsAndWeather.csv" Width="600"></asp:TextBox>
+            <asp:TextBox ID="txtDestRelativeLocation" runat="server" Text="scoring/flights/Scored_FlightsAndWeather.csv" Width="600"></asp:TextBox>
         </div>
 
         <div>
