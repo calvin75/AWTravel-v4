@@ -217,7 +217,7 @@ namespace PBIWebApp
                     //Find the AdventureWorks dashboard
                     foreach (PBIDashboard db in PBIDashboards.value)
                     {
-                        if (db.displayName.ToLower().Equals("adventureworks"))
+                        if (db.displayName.ToLower().Equals("adventureworkstravel"))
                         {
                             getTilesForDashboard(db.id);
                         }
